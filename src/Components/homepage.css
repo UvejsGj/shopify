@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+
+.navbar {
+    color: white;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+    margin: 10px;
+}
+
+.shopify {
+    position: relative;
+    top: 5px;
+}
+
+.login {
+    position: relative;
+    left: 100px;
+}
+
+.signup {
+    position: relative;
+    left: 50px;
+    color: greenyellow;
+}
+
+.sun {
+    position: relative;
+    top: 5px;
+    left: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: -5px;
+    color: white;
+}
+
+a {
+    position: relative;
+    margin: 50px;
+    left: -200px;
+    top: 5px;
+}
+
+.input {
+    background-color: #132A35;
+    position: relative;
+    border-radius: 7px;
+    outline: none;
+    left: 100px;
+    border: none;
+    height: 26px;
+}
+
+.glass {
+    position: relative;
+    left: -75px;
+    top: 5px;
+}
+
+.image {
+    position: relative;
+    left: 300px;
+}
+
+.maindiv {
+    background-color: #151D1E;
+    border-radius: 20px;
+    width: 1600px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.green {
+    border: 3px solid green;
+    border-radius: 50px;
+    width: 700px;
+    color: white;
+    position: relative;
+    left: 30px;
+    bottom: 700px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.green:hover {
+    background-color: green;
+    color: black;
+}
+
+.rightup:hover {
+    color: black;
+}
