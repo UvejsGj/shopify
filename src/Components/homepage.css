@@ -506,3 +506,258 @@ a {
     margin-top: 20px;
     font-size: 20px;
 }
+
+.div6 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1600px;
+    margin-left: 200px;
+    color: white;
+}
+
+.start {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    border: 3px solid #63F44C;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.custom {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 400px;
+    border: 3px solid #24393D;
+    text-align: start;
+    background-color: #151D1E;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: -10px;
+}
+
+.buildapp {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 800px;
+    border: 3px solid #24393D;
+    background-color: #151D1E;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+.color {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 1200px;
+    border: 3px solid #24393D;
+    background-color: #151D1E;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+.join {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    height: 150px;
+    left: 0;
+    border: 3px solid #9DB8F7;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+.chat {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    height: 150px;
+    left: 400px;
+    border: 3px solid #24393D;
+    background-color: #151D1E;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+.developer {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    height: 150px;
+    left: 800px;
+    border: 3px solid #24393D;
+    background-color: #151D1E;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+.blog {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    height: 150px;
+    left: 1200px;
+    border: 3px solid #24393D;
+    background-color: #151D1E;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+.footer {
+    position: absolute;
+    width: 1800px;
+    height: 400px;
+    top: 2300px;
+    left: 50px;
+    background-color: #151D1E;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.updates {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 200px;
+    top: 100px;
+    text-align: start;
+}
+
+.community {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 400px;
+    top: 100px;
+    text-align: start;
+}
+
+.events {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 600px;
+    top: 100px;
+    text-align: start;
+}
+
+.legal {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 750px;
+    top: 100px;
+    text-align: start;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.log {
+    margin: 10px;
+}
+
+.partner {
+    margin: 10px;   
+}
+
+.engi {
+    margin: 10px;   
+}
+
+.ux {
+    margin: 10px;   
+}
+
+.forum {
+    margin: 10px;   
+}
+
+.discord {
+    margin: 10px;   
+}
+
+.twitter {
+    margin: 10px;   
+}
+
+.youtube {
+    margin: 10px;   
+}
+
+.unite {
+    margin: 10px;   
+}
+
+.meetups {
+    margin: 10px;
+}
+
+.service {
+    margin: 10px;
+}
+
+.appi {
+    margin: 10px;
+}
+
+.privacy {
+    margin: 10px;
+}
+
+.input1 {
+    background: none;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #24393D;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: 1100px;
+    color: white;
+    top: 180px;
+}
+
+.to {
+    position: absolute;
+    left: 1100px;
+    top: 130px;
+}
+
+.button {
+    position: absolute;
+    top: 180px;
+    left: 1440px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: none;
+    outline: none;
+    border: 2px solid #24393D;
+    border-radius: 5px;
+}

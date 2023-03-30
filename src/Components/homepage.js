@@ -20,6 +20,13 @@ import potion from "../Images/potion.png"
 import shield from "../Images/shield.png"
 import light from "../Images/light.png"
 import palace from "../Images/palace.png"
+import dudes from "../Images/dudes.png"
+import blog from "../Images/blog.png"
+import chat from "../Images/chat.png"
+import color from "../Images/color.png"
+import custom from "../Images/custom.png"
+import developer from "../Images/developer.png"
+import puzzle from "../Images/puzzle.png"
 
 function HomePage() {
     return (
@@ -33,7 +40,7 @@ function HomePage() {
           <CgSun className="sun" color="orange" size={20}/>
           <a className="login" > Log In </a>
           <a className="signup"> Sign Up </a>   
-        </div>
+       </div>
 
         <div className="maindiv" >
             <img className="image" src={house} />
@@ -105,6 +112,84 @@ function HomePage() {
             <p className="app" > The Shopify App Store and Theme Store make it easy to build great <br></br> experiences that attract merchants and open up new revenue streams. </p>
             <img className="palace" src={palace} />
         </div>
+
+        <div className="div6" >
+            <div className="row1">
+                <div className="start"> 
+                    <img src={dudes}/>
+                    <h2> Get started </h2> 
+                </div>
+                <div className="custom">
+                    <img src={custom}/>
+                    <h2> Build a custom storefront </h2>
+                    <p> Create custom storefronts and deliver <br></br> unique shopping experiences </p>
+                </div>
+                <div className="buildapp">
+                    <img src={puzzle} />
+                    <h2> Build an App  </h2>
+                    <p> Develop apps to customize and extend <br></br> Shopify's platform </p>
+                </div>
+                <div className="color">
+                <img src={color} />
+                    <h2> Build a Theme  </h2>
+                    <p> Design beautiful themes to shape the <br></br> online store experience </p>
+                </div>
+            </div>
+            <div className="row2">
+                <div className="join">
+                    <h2> Join a Community <br></br> of builders </h2>
+                </div>
+                <div className="chat">
+                    <img src={chat} />
+                    <h2> Developer Forums </h2>
+                    <p> Q&A and advice from Shopify <br></br> community experts </p>
+                </div>
+                <div className="developer">
+                    <img src={developer} />
+                    <h2> Developer Changelog </h2>
+                    <p> The latest shopify ecosystem updates </p>
+                </div>
+                <div className="blog">
+                    <img src={blog} />
+                    <h2> Shopify partner blog </h2>
+                    <p> Educational resources and product previews </p>
+                </div>
+            </div>
+        </div>
+
+        <div className="footer">
+            <div className="updates">
+                <h3> Updates & News </h3>
+                <p className="log"> Developer changelog </p>
+                <p className="partner"> Partner blog </p>
+                <p className="engi"> Engineering blog </p>
+                <p className="ux"> UX blog </p>
+            </div>
+            <div className="community">
+                <h3> Community </h3>
+                <p className="forum"> Developer forum </p>
+                <p className="discord"> Discord </p>
+                <p className="twitter"> Twitter </p>
+                <p className="youtube"> YouTube </p>
+            </div>
+            <div className="events">
+            <h3> Events </h3>
+                <p className="unite"> Unite </p>
+                <p className="meetups"> Meetups </p>
+            </div>
+            <div className="legal"> 
+            <h3> Legal </h3>
+                <p className="service"> Terms of Service </p>
+                <p className="appi"> API Terms of Service </p>
+                <p className="privacy"> Privacy policy </p>
+            </div>
+            <div>
+                <p className="to"> Subscribe to receive updates from Shopify </p>
+                <input className="input1" type={"search"} placeholder="Enter Email"/>
+                <input value={"Subscribe"} className="button" type={"button"} />
+            </div>
+        </div>
+
     </div>
 </>
     )
