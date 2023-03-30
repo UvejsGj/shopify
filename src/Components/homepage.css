@@ -55,6 +55,7 @@ a {
     left: 100px;
     border: none;
     height: 26px;
+    color: white;
 }
 
 .glass {
@@ -316,4 +317,192 @@ a {
     border-bottom: 3px dotted green;
     width: 900px;
     padding: 20px;
+}
+
+.maindiv3 {
+    background-color: #151D1E;
+    position: relative;
+    border-radius: 20px;
+    height: 700px;
+    width: 1800px;
+    top: 1200px;
+    left: 50px;   
+}
+
+.best {
+    color: white;
+    text-align: start;
+    position: absolute;
+    left: 356px;
+    top: 150px;
+    font-size: 46px;
+    border-bottom: 3px solid green;
+}
+
+.maskimage {
+    position: absolute;
+    width: 400px;
+    top: 2300px;
+    left: 400px;
+    z-index: 10;
+}
+
+.testing {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    text-align: start;
+}
+
+.build {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    text-align: start;
+}
+
+.laptop {
+    position: absolute;
+    top: 150px;
+    z-index: 300;
+    right: 100px;
+}
+
+.div4 {
+    position: relative;
+    width: 1800px;
+    height: 500px;
+    top: 1300px;
+    
+}
+
+.flex {
+    color: white;
+    text-align: start;
+    position: absolute;
+    left: 410px;
+    width: 400px;
+    top: 100px;
+    border-bottom: 3px solid green;
+}
+
+.dotted {
+    position: absolute;
+    width: 800px;
+    left: 400px;
+}
+
+.windows {
+    position: absolute;
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+    margin: 100px;
+    top: 200px;
+    left: 200px;
+}
+
+.design {
+    background-color: #151D1E;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    text-align: start;
+    position: absolute;
+    padding: 20px;
+}
+
+.designp{
+    margin: 0;
+}
+
+.global {
+    background-color: #151D1E;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    left: 350px;
+    padding: 20px;
+    text-align: start;
+    position: absolute;
+    padding: 20px;
+}
+
+.globalp {
+    margin: 0;
+}
+
+.battle {
+    background-color: #151D1E;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    left: 700px;
+    padding: 20px;
+    text-align: start;
+    position: absolute;
+    padding: 20px;
+}
+
+.battlep {
+    margin: 0;
+}
+
+.innovation {
+    background-color: #151D1E;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    left: 1050px;
+    padding: 20px;
+    text-align: start;
+    position: absolute;
+    padding: 20px;
+}
+
+.innovationp {
+    margin: 0;
+}
+
+.div5 {
+    position: absolute;
+    top: 800px;
+    left: 500px;
+    width: 900px;
+    height: 800px;
+    color: white;
+}
+
+.palace {
+    position: absolute;
+    left: -300px;
+    top: 100px;
+    z-index: -1;
+    width: 1600px;
+}
+
+.audience {
+    text-align: start;
+    border-bottom: 3px solid green;
+    width: 300px;
+}
+
+.sell {
+    text-align: start;
+    font-size: 20px;
+}
+
+.app {
+    text-align: start;
+    margin-top: 20px;
+    font-size: 20px;
 }
